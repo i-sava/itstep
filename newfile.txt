@@ -1,1 +1,9 @@
 inform
+
+reset --hard
+ 
++working dirctory
++staging
++local repo
+
+
