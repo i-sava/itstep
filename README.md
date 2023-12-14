@@ -1,3 +1,1 @@
-# itstep
-work git
-from edu
+# Hometask 48
