@@ -5,3 +5,16 @@
 """
 # Вхідні дані: "one-two-three-four-five-six-seven"
 # Вихідні дані: "five-four-one-seven-six-three-two"
+
+
+string = "one-two-three-four-five-six-seven"
+
+
+def sort_string(text):
+    new_text = text.split('-')
+    new_text.sort()
+    sorted_text = "-".join(new_text)
+    print(sorted_text)
+
+
+sort_string(string)
