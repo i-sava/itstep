@@ -6,6 +6,18 @@
 # Вхідні дані: "one-two-three-four-five-six-seven"
 # Вихідні дані: "five-four-one-seven-six-three-two"
 
+# Vlad
+input_string = "one-two-three-four-five-six-seven"
+
+def sort_string(input_str):
+    words = input_str.split('-')
+    sorted_words = sorted(words)
+    result = '-'.join(sorted_words)
+    print(result)
+
+
+sort_string(input_string)
+
 
 # Andriy
 s="one-two-three-four-five-six-seven"
